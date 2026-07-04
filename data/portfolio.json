@@ -1,0 +1,433 @@
+{
+  "name": "Sushruth",
+  "headerTaglineOne": "Hello World!",
+  "headerTaglineTwo": "I'm Sushruth Murakare ",
+  "headerTaglineThree": "Software Developer",
+  "headerTaglineFour": " ",
+  "showCursor": false,
+  "showBlog": true,
+  "darkMode": false,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/sushruthmurakare/"
+    },
+    {
+      "id": "2",
+      "title": "Github",
+      "link": "https://github.com/SushruthMurakare"
+    },
+    { "id": "5", "title": "Email", "link": "mailto:sushruth_rao@mines.edu" },
+    {
+      "id": "5",
+      "title": "Devpost",
+      "link": "https://devpost.com/SushruthMurakare"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Colorado DMV Appointment Finder",
+      "description": "The Colorado DMV website had no public API and was protected with CSRF tokens that made automation seem impossible. I reverse engineered the multi-step booking flow by watching network requests, figured out how the hidden tokens passed between steps, and built a Python scraper using aiohttp and asyncio that checks all 36 Colorado DMV offices at once for available appointments. Deployed on Render with a self-ping keep-alive so it stays awake on the free tier.",
+      "imageSrc": "/images/projects/acsmfr.webp",
+      "url": "https://colorado-dmv-appointment-finder.onrender.com/"
+    },
+    {
+      "id": "2",
+      "title": "Payne Institute Geospatial Platform",
+      "description": "Researchers had 200,000+ rows of satellite emissions data across 50+ industrial emitter types but no way to explore it without writing code. I built the entire platform solo — FastAPI backend, React frontend with MapLibre for interactive visualization, LangChain and Google Gemini AI layer for natural language querying, PostgreSQL, Docker, and AWS deployment. Researchers can type a plain English question and get accurate answers backed by real satellite data in real time.",
+      "imageSrc": "/images/projects/eog.webp",
+      "url": "https://eogmap.mines.edu/giree"
+    },
+    {
+      "id": "1",
+      "title": "RAG-Based Professional Knowledge Assistant",
+      "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
+      "imageSrc": "/images/projects/acsmfr.webp",
+      "url": "https://github.com/SushruthMurakare/RAGPersonalAssistant"
+    },
+    {
+      "id": "1",
+      "title": "Access control system with masked face recognition (Thesis Project)  ",
+      "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
+      "imageSrc": "/images/projects/acsmfr.webp",
+      "url": "https://github.com/SushruthMurakare/Masked-Face-Recognition"
+    },
+    {
+      "id": "2",
+      "title": "TODO - KinderTech robot",
+      "description": "This study explores the design and impact of a kindergarten assistant robot, TODO, created to meet classroom needs. Drawing on participatory design principles and insights from interviews with stakeholders, TODO is envisioned as a dynamic, interactive, and emotionally intelligent robot. The research focuses on two primary factors that influence the robot’s effectiveness: its personality and conversational timing. By examining how these traits shape user perceptions, the study seeks to understand the role of politeness and engagement in fostering productive human-robot interactions. Using iterative design processes, grounded theory analysis, and controlled experiments, this research lays the groundwork for developing socially responsive robots that can assist teachers and enhance the learning experience for young students.",
+      "imageSrc": "/images/projects/todo.webp",
+      "url": "https://github.com/SushruthMurakare/TODO_robot"
+    },
+    {
+      "id": "3",
+      "title": "Machine learning algorithm for crack detection",
+      "description": "Crack detection in construction materials is essential for ensuring structural safety and minimizing maintenance cost. Traditionally, methods such as manual inspection are time taking and have a room for human error thus often require specialized tools. This project proposes a machine learning based approach using Convolutional Neural Network (CNNs) to detect cracks in concrete surfaces through image analysis. Concrete was chosen as the initial materia due its widespread use. A dataset of 2GB containing labeled images of cracked and non cracked concrete was used which incorporated only real samples. The results suggest that deep learning models can effectively automate crack detection, offering a scalable alternative to manual methods.",
+      "imageSrc": "/images/projects/crackdetection.jpg",
+      "url": "https://github.com/SushruthMurakare/CrackDetection"
+    },
+    {
+      "id": "4",
+      "title": "Bad Design Competition (Won)",
+      "description": "Digi E Store is a deliberately bad-design UX/UI project that simulates a scam-like e-commerce platform to demonstrate how poor UX decisions and dark patterns frustrate users and break core design principles like Fitts’ Law, Jakob’s Law, Hick’s Law, and ethical design standards. By intentionally violating usability, accessibility, and visual hierarchy across multiple screens, the project highlights the real impact of bad interaction design. This project won the competition, recognizing its clear execution and strong understanding of UX laws by showcasing what not to do in design.",
+      "imageSrc": "/images/projects/baddesign.png",
+      "url": "https://sushruthmurakare.github.io/BadDesign/"
+    },
+    {
+      "id": "5",
+      "title": "Geospatial Data Extraction",
+      "description": "Designing and developing full stack web platform using React and Python to visualize and interact with geospatial datasets, structuring PostgreSQL database and building RESTful APIs for data processing. Extracted and organized 12 TB of geospatial data from legacy server, successfully processing 5 TB to date while implementing data migration workflows. Researched cloud platforms (AWS, GCP, Azure) and documented deployment architecture to support production hosting, storage, and scalability requirements.",
+      "imageSrc": "/images/projects/geospatial.png",
+      "url": "https://github.com/Brushy-Canyon-GIS/Web"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "title": "AWS Certified Cloud Practitioner",
+      "description": "AWS Training and Certification",
+      "imageSrc": "/images/AWS.png",
+      "url": "https://www.credly.com/badges/5c147c4d-cd3a-4ae1-9eef-4399550bd2ad/public_url"
+    },
+     {
+      "id": "1",
+      "title": "Claude code 101",
+      "description": "Anthropic",
+      "imageSrc": "/images/Claudecode.png",
+      "url": "https://verify.skilljar.com/c/s8o8iw92two5"
+    },
+    {
+      "id": "3",
+      "title": "AWSOME Day Online Conference",
+      "description": "AWS Training and Certification",
+      "imageSrc": "/images/AWSOME.png",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "title": "Introduction to Amazon API Gateway",
+      "description": "AWS Training and Certification",
+      "imageSrc": "/images/AWS2.png",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "title": "Introduction to Containers on AWS",
+      "description": "AWS Training and Certification",
+      "imageSrc": "/images/AWS1.png",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "title": "Introduction to Generative AI Studio",
+      "description": "Google Cloud",
+      "imageSrc": "/images/GenAI.png",
+      "url": "https://certificates.simplicdn.net/share/7394216_1726974999.pdf"
+    },
+    {
+      "id": "6",
+      "title": "Responsive Web Design",
+      "description": "Free Code Camp",
+      "imageSrc": "/images/FreeCodeCamp.png",
+      "url": "https://www.freecodecamp.org/certification/sushruth_murakare/responsive-web-design"
+    },
+    {
+      "id": "7",
+      "title": "Practical Web Design",
+      "description": "Udemy",
+      "imageSrc": "/images/Udemy2.png",
+      "url": "https://www.udemy.com/certificate/UC-cae02a85-23e5-4aa4-abe8-c3631775c2f0/"
+    },
+    {
+      "id": "8",
+      "title": "HTML & CSS Certification",
+      "description": "Udemy",
+      "imageSrc": "/images/Udemy1.png",
+      "url": "https://www.udemy.com/certificate/UC-2a83e226-d6cf-43d0-b7df-1bb0478e140c/"
+    }
+  ],
+  "Testimonials": [
+    {
+      "name": "Jeff Stockett",
+      "relationship": "Manager",
+      "company": "Team JDC",
+      "title": "Software Consultant",
+      "date": "2025-08-20",
+      "managedDirectly": true,
+      "image": "/images/testimonials/Jeff.jpeg",
+      "linkedin" : "https://www.linkedin.com/in/jeff-stockett-6600129",
+      "recommendation": "Sushruth worked with me as a front end developer doing React. He was able to solve a number of complex problems and create a robust SaaS product. I highly recommend him for any software development needs that anyone may have."
+    },
+    {
+      "name": "Shivam Prajapati",
+      "relationship": "Senior Team Member",
+      "company": "Accenture",
+      "title": "Senior Analyst",
+      "date": "2025-08-11",
+      "managedDirectly": false,
+      "image": "/images/testimonials/Shivam.jpeg",
+      "linkedin" : "https://www.linkedin.com/in/shivam-prajapati-336734184",
+      "recommendation": "I met Sushruth when he joined my team as a Graduate Engineer Trainee. He quickly moved beyond onboarding, understood features independently, and required very little intervention. Over successive sprints, he consistently wrote more mature code, took ownership of larger features, and debugged complex issues on his own. I highly recommend him for his ability to learn quickly, handle work professionally, and contribute positively to the team's success."
+    },
+    {
+      "name": "Chris Elvidge",
+      "relationship": "Manager",
+      "company": "Colorado School of Mines",
+      "title": "Director of the Earth Observation Group",
+      "date": "2025-08-11",
+      "managedDirectly": true,
+      "image": "/images/testimonials/Chris.jpeg",
+      "linkedin" : "https://www.linkedin.com/in/chris-elvidge-8142351ab",
+      "recommendation": "Sushruth Murakare was a student worker in my computer laboratory at the Colorado School of Mines for about one year. He reworked our web-map service, integrated new data sets, and made substantial improvements in functionality. We were sorry that our funding situation did not make it possible for him to stay on with us. He is a very talented scientific programmer and has my highest recommendation."
+    },
+    {
+      "name": "Ed Sztukowski",
+      "relationship": "Senior Team Member",
+      "company": "Zinnia",
+      "title": "Senior Software Engineer",
+      "date": "2025-08-08",
+      "managedDirectly": false,
+      "image": "/images/testimonials/Ed.jpeg",
+      "linkedin" : "https://www.linkedin.com/in/ed-sztukowski-93bb5143",
+      "recommendation": "Sushruth joined our team as an intern in the summer of 2025 and made an immediate impact. With little direction, he jumped into new feature development and eventually led feature work on a major section of our application. His willingness to take on difficult tasks and complete them thoughtfully and on time, combined with his React expertise, friendliness, and humility, made him an outstanding teammate. Any team would be lucky to work with Sushruth."
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "title": "Tactical Triangle",
+      "subtitle": "Rock Paper Metal themed 2D tower defense",
+      "imageSrc": "/images/projects/tower.png",
+      "url": "https://drive.google.com/file/d/1kJUOdFOYLWqU1NNHg8AJWmwz2dSULIXA/view",
+      "bullets": [
+        "Built a rock-paper-scissors tower defense in Unity/C# with 3 tower types (Rock Statue, Origami Frog, Metal Soldier) and 3 enemy types (Pebble, Post-it Note, Ore), applying 2x/1x/0.5x damage multipliers per type matchup.",
+        "Implemented a grid-based tower placement system on a map with real-time mouse-follow preview, range indicators, and a shop panel displaying each tower's damage, range, and cost stats before purchase.",
+        "Designed 9 hand-crafted 2D sprites across towers, enemies, and a nature-themed map, with movement animations (rolling rock enemies), per-enemy death sound effects, and map-specific background music.",
+        "Built a tower economy loop with 500-coin placement, per-kill rewards, individual upgrade panels on tower selection, and an exponential wave-scaling system where enemy health, speed, and count increase each wave."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "The Escape",
+      "subtitle": "3D first-person escape room",
+      "imageSrc": "",
+      "url": "",
+      "bullets": [
+        "Built a 3D first-person perspective (FPP) escape room game in Unity, where players navigate a walled environment to collect all items and unlock an escape path upon completion.",
+        "Designed and reused Wall prefabs to construct the room layout, applying custom concrete textures and BoxColliders to each instance for accurate physical boundaries.",
+        "Implemented collectable game objects using trigger Colliders to detect player interaction, and destroyed prefab instances from memory upon collection to manage runtime performance."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Cherry Caves",
+      "subtitle": "Super Mario style 2D platformer",
+      "imageSrc": "",
+      "url": "",
+      "bullets": [
+        "Developed a multi-level 2D platformer in GameMaker Studio with custom physics, collision detection, and player mechanics including jumping, climbing, and moving platforms.",
+        "Implemented a checkpoint/lives system with respawn logic, fall damage, and a 3-HP health pool for recoverable gameplay progression across multiple levels.",
+        "Designed varied enemies and collectibles including patrolling octopuses, projectile enemies, coins, cherries, and a frenzy power-up with unique player states."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Space Shooter",
+      "subtitle": "2D multi-level space shooter",
+      "imageSrc": "",
+      "url": "",
+      "bullets": [
+        "Developed a multi-level 2D space shooter in GameMaker Studio with 3 distinct enemy behaviors: path-following, horizontal oscillation, and player-tracking.",
+        "Implemented core mechanics including player movement, projectile firing, real-time collision detection, HP/damage logic, and playing/paused/gameover state management.",
+        "Integrated 20+ sprites including animated enemies (red, blue, UFO, boss variants), player ships, projectiles, and particle effects with directional sprite rotation.",
+        "Built a scrolling camera system with dynamic player boundary enforcement and progressive enemy difficulty."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "2",
+      "title": "Software Engineer",
+      "organization": "Zinnia",
+      "location": "Boulder, Colorado",
+      "started": "May 2025",
+      "ended": "Aug 2025",
+      "type": "Full-time",
+      "description": [
+        "Built and maintained insurance analytics dashboards tracking user segmentation data for clients including Farmer's Insurance, reducing load latency by ~20% through optimized state management.",
+        "Integrated generative AI (GPT-4) into a production platform to summarize complex tables and chart data; leveraged AI coding assistants to accelerate development, improve code quality, and explore creative solutions.",
+        "Collaborated with 5+ cross-functional stakeholders (product, design, QA, backend engineering) representing the front-end team, participating in code reviews and proposing improvements to architecture and practices.",
+        "Led a team of 10 interns as Scrum Master, tracking project progress in Jira, facilitating roadmap discussions, breaking down 20+ requirements into Jira tickets, and ensuring 100% sprint completion across 4 Agile iterations."
+      ],
+      "url": ""
+    },
+    {
+      "id": "3",
+      "title": "Mobile App Developer",
+      "organization": "NutriverseAI",
+      "location": "Boulder, Colorado",
+      "started": "May 2025",
+      "ended": "Aug 2025",
+      "type": "Part-time",
+      "description": [
+        "Owned end-to-end development of a React Native nutrition app, integrating AI-driven personalization and social media audio extraction using yt_dlp, processing 100+ audio clips into structured recipe entries.",
+        "Built and optimized 6+ backend APIs using Node.js and FastAPI, integrating third-party and internal REST APIs, and designing efficient relational database queries to support scalable application features.",
+        "Mentored 5+ teammates through code reviews, identified workflow inefficiencies across the team and proposed process improvements, and collaborated with the founder to define new features."
+      ],
+      "url": ""
+    },
+    {
+      "id": "5",
+      "title": "Full Stack Developer",
+      "organization": "Payne Institute for Public Policy",
+      "location": "Golden, Colorado",
+      "started": "Sep 2024",
+      "ended": "May 2025",
+      "type": "Part-time",
+      "description": [
+        "Designed, developed, tested, and deployed a full-stack application independently, building scalable REST APIs and optimizing database schemas for performant queries, while leveraging Docker and AWS for containerization and deployment.",
+        "Integrated AI using LangChain and Google Gemini to build resilient and maintainable Python backend services that summarized satellite imagery and related analytical data, delivering instant results through cached and pre-analyzed responses.",
+        "Built interactive MapLibre layers to visualize 200,000+ rows of satellite data across 50+ emitters, using custom icons and optimized rendering techniques to improve user experience and map clarity.",
+        "Reduced average page load time by ~40% by monitoring system health and proactively improving performance by fixing React re-renders, optimizing PostgreSQL schemas, and eliminating redundant API calls."
+      ],
+      "url": "https://eogmap.mines.edu/giree"
+    },
+    {
+      "id": "6",
+      "title": "Senior Software Engineer",
+      "organization": "Tecnotree Convergence",
+      "location": "Bangalore, India",
+      "started": "Jan 2022",
+      "ended": "Jul 2024",
+      "type": "Full-time",
+      "description": [
+        "Migrated REST APIs to GraphQL, designing GraphQL schemas to reduce data transfer by up to 60% and support 4+ cross-functional teams, earning internal recognition.",
+        "Developed a real-time usage and balance tracking feature for telecom customers, building a Java backend service that automated live monitoring of data, call, and SMS usage, reducing support queries by ~15%.",
+        "Led development of a 5-screen scalable component library for a client in Kuwait, establishing consistent design patterns and a reusable front-end architecture that enabled users to add services and contributed to a team award.",
+        "Implemented a bottom navigator in a React Native mobile app, making navigation 3x faster.",
+        "Implemented Detox end-to-end testing and expanded unit test coverage across releases, accelerating development cycles, improving product reliability, and removing dependency on manual testing."
+      ],
+      "url": "https://www.tecnotree.com/"
+    },
+    {
+      "id": "7",
+      "title": "Software Engineer",
+      "organization": "Credental LLC",
+      "location": "Lehi, Utah",
+      "started": "Oct 2022",
+      "ended": "Apr 2023",
+      "type": "Part-time",
+      "description": [
+        "Collaborated directly with the founder to design and develop core platform features for an early-stage healthcare startup, helping shape product requirements and technical decisions.",
+        "Built and integrated backend APIs and developed the complete multi-step questionnaire UI, enabling seamless collaboration between dentists and 10+ insurance partners.",
+        "Implemented real-time validation, auto-save, and dynamic dashboards, reducing submission errors by ~30% and providing actionable insights from questionnaire data for healthcare providers."
+      ],
+      "url": "https://credental.net/"
+    },
+    {
+      "id": "1",
+      "title": "Python Teaching Assistant",
+      "organization": "Colorado School of Mines",
+      "location": "Golden, Colorado",
+      "started": "Aug 2025",
+      "ended": "Present",
+      "type": "Part-time",
+      "description": [
+        "Mentor and guide students learning Python through regular office hours, teaching core programming concepts and supporting assignment and exam preparation.",
+        "Grade assignments and worksheets while providing feedback focused on code quality and best practices."
+      ],
+      "url": ""
+    },
+    {
+      "id": "4",
+      "title": "Mobile App Development Teaching Assistant",
+      "organization": "Colorado School of Mines",
+      "location": "Golden, Colorado",
+      "started": "Jan 2025",
+      "ended": "May 2025",
+      "type": "Part-time",
+      "description": [
+        "Assisted the Mobile Application Development course, teaching Kotlin and Jetpack Compose to a class of 60 students during office hours.",
+        "Graded assignments and homework while providing technical guidance and clarifying student doubts."
+      ],
+      "url": "https://cs-courses.mines.edu/csci448/index.html"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Colorado School of Mines",
+      "degree": "Master of Science in Computer Science",
+      "location": "Golden, Colorado",
+      "graduated": "Dec 2025",
+      "gpa": "3.7",
+      "relatedCourses": "Theory of Computation, Human AI Interaction, Cryptography, Advanced Computer Architecture, Advaced Machine Learning, Advanced Elements of Game Development, Human Robot Interaction, UI/UX, Software Systems Design",
+      "url": "https://www.mines.edu/"
+    },
+    {
+      "id": "2",
+      "institution": "Visvesvaraya Technological University",
+      "location": "Karnataka, India",
+      "degree": "Bachelor of Engineering in Computer Science",
+      "graduated": "Aug 2022",
+      "gpa": "3.27",
+      "relatedCourses": "DataStructures and Algorithms, Operating Systems, Computer Organization, Software Engineering, Programming Languages, Automata Theory, Web Interface Design, Mobile application Development",
+      "url": "https://vtu.ac.in/en/"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "name": "Only guide to AWS Cloud Practitioner Certification",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "name": "Addiction by design",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "name": "Comparing the Big 3 cloud service prodivers",
+      "url": ""
+    }
+  ],
+  "contact": {
+    "personalEmail": "sushruthraomurakare@gmail.com",
+    "offcialEmail": "sushruth_rao@mines.edu",
+    "linkedin": "https://www.linkedin.com/in/sushruthmurakare/",
+    "github": "https://github.com/SushruthMurakare"
+  },
+  "aboutpara": "#OpentoWork\n I’m a Software Engineer who loves building clean, fast, and user-friendly web and mobile applications. I’ve worked across frontend, backend, and full-stack development, and enjoy improving both performance and user experience. \n\nMost recently, I worked as a Frontend Software Engineer Intern at Zinnia, where I developed a new section called “Usage” in the app. I was the sole frontend representative in meetings with the product manager, backend, and UX team, gathering requirements, assessing feasibility, estimating timelines, and coordinating implementation details. I also led a team of interns to design an on-time delivery metrics system, managing requirements, creating JIRA tasks, and ensuring timely delivery. This experience strengthened my skills as both a developer and a leader. Take a look at my accomplishments at this role and comments from my teammates using this link - https://docs.google.com/document/d/1BMIozehPXhRWKFtqaDG2-YaOyRSYhkYGnkzihC0ZgEE/edit?tab=t.0\n\nBefore that, I worked as a Graduate Scientific Programmer at the Payne Institute, where I was the sole developer responsible for designing, developing, testing, and deploying a full-stack application. I built map layers using geospatial data fetched from a PostgreSQL database, improved the UI for a better user experience and the code for enhanced performance, and integrated LangChain and Gemini to analyze satellite images.\n\nEarlier, I worked at Tecnotree for over two years, where I started as an intern and grew into a Senior Developer. I developed key features for telecom web and mobile apps, implemented GraphQL APIs, added automation testing, and helped improve navigation and usability for users across several countries.\n\nI also worked with Credental, a Utah-based startup, where I owned the complete frontend using ReactJS and Typescript, integrated APIs, and designed and developed the UI for smoother collaboration between dentists and insurance providers.\n\nI enjoy working on React, Next, FastAPI, Flask, NodeJS, TypeScript, Docker, and AI-integrated applications, and I’m excited to keep building scalable, real-world solutions that make products faster, smarter, and easier to use. My goal is to keep growing as a Software Engineer who solves real world problems with software solutions.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
+}
