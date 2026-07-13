@@ -83,21 +83,6 @@ export default function Nav() {
     <nav className="sticky top-4 z-50 flex justify-center px-4">
       <div className="w-full xl:w-auto max-w-6xl">
         <div className="flex items-center gap-1 rounded-full border border-zinc-200/70 bg-white/70 backdrop-blur-md shadow-sm px-2 py-2">
-          <Link
-            href="/"
-            className="flex items-center gap-2 pl-2 pr-3 flex-shrink-0"
-          >
-            <Image
-              src="/Images/logo.svg"
-              alt=""
-              width={22}
-              height={22}
-              className="w-[22px] h-[22px]"
-            />
-            <span className="text-sm font-medium text-zinc-900 tracking-tight">
-              Sushruth
-            </span>
-          </Link>
 
           <div className="hidden xl:flex items-center gap-1">
             {NAV_LINKS.map((link) => (
