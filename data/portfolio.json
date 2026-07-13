@@ -92,6 +92,50 @@
     }
 
   ],
+   "hackathons": [
+     {
+      "id": "1",
+      "title": "Colorado Impact Hackathon",
+      "description": "Built WattWise, an AI-powered mobile app at the Colorado Impact Hackathon that helps renters better understand and reduce household energy costs. Users can scan utility bills for spending insights, analyze appliances with AI to estimate monthly energy usage and efficiency, receive personalized savings recommendations, and track progress toward financial goals through an intuitive mobile experience.",
+      "imageSrc": "/images/hackathons/google.jpeg",
+      "url": "https://www.linkedin.com/posts/sushruthmurakare_an-amazing-experience-at-the-colorado-impact-ugcPost-7395245961452699648-bQk7/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "id": "2",
+      "title": "Code n' Cube",
+      "description": "Built a web platform that connects a physical Rubik's Cube via Bluetooth and provides a Scratch-inspired block programming interface for creating interactive cube-based games. Users can visualize the cube digitally, track cube states, add timers, and build multiplayer challenges, making programming and puzzle-solving fun and accessible for beginners.",
+      "imageSrc": "/images/hackathons/cube.jpg",
+      "url": "https://devpost.com/software/code-n-cube"
+    },
+     {
+      "id": "3",
+      "title": "SafeZone",
+      "description": "Developed SafeZone, a real-time disaster response platform that combines NASA and FEMA data with community-verified updates to provide actionable information during emergencies. The platform sends location-based SMS and email alerts, displays nearby shelters and essential resources on an interactive map, and helps first responders and volunteers coordinate resources and identify areas where assistance is needed most.",
+      "imageSrc": "/images/hackathons/safezone.jpg",
+      "url": "https://devpost.com/software/safezone-1y3apd"
+    },
+     {
+      "id": "4",
+      "title": "AI City Companion",
+      "description": "Built an AI-powered city exploration companion that generates personalized sightseeing routes, narrates stories for each location, and gamifies exploration with a Street Cred system. Using the Gemini API and Google Places API, the app delivers interactive, story-driven experiences through a responsive web interface.",
+      "imageSrc": "/images/hackathons/city.jpg",
+      "url": "https://devpost.com/software/ai-city-companion"
+    },
+     {
+      "id": "5",
+      "title": "RealApp",
+      "description": "Developed RealApp, an AI-powered social media platform focused on authentic and positive content. The app uses AI moderation and a community-driven Truth Score to encourage genuine posts, while features like Behind the Scenes, Goal Progress, Educational Reels, and Truth Behind the Trends promote transparency, personal growth, and meaningful engagement.",
+      "imageSrc": "/images/hackathons/real.jpg",
+      "url": "https://devpost.com/software/realapp"
+    },
+      {
+      "id": "6",
+      "title": "Burro Defense cybersecurity competition (Won 1st place)",
+      "description": "Competed in the Burro Defense cybersecurity competition, collaborating in a team to defend DNS, FTP, and HTTP servers against live cyberattacks. Monitored systems, identified vulnerabilities, and responded to attacks in real time to maintain service availability and security, earning 1st place in the competition.",
+      "imageSrc": "/images/hackathons/burro.jpeg",
+      "url": "https://devpost.com/software/realapp"
+    }
+  ],
   "certifications": [
     {
       "id": "1",

@@ -15,6 +15,7 @@ const NAV_LINKS: NavLinkItem[] = [
   { label: "Education", sectionId: "education" },
   { label: "Certificates", sectionId: "certificates" },
   { label: "Games", href: "/games" },
+  { label: "Hackathons", href: "/hackathons" },
   // { label: "Gallery", href: "/experience" },
   { label: "Resume", href: "/resume" },
   {
