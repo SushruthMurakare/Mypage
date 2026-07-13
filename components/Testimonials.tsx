@@ -77,7 +77,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#FAF8F5] px-6 py-24">
+    <section className="bg-[#FAF8F5] px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-[11px] uppercase tracking-[0.2em] text-[#3C0008] italic mb-12 text-center">
           What my co-workers say

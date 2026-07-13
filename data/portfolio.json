@@ -36,53 +36,61 @@
     },
     {
       "id": "2",
-      "title": "Payne Institute Geospatial Platform",
-      "description": "Researchers had 200,000+ rows of satellite emissions data across 50+ industrial emitter types but no way to explore it without writing code. I built the entire platform solo — FastAPI backend, React frontend with MapLibre for interactive visualization, LangChain and Google Gemini AI layer for natural language querying, PostgreSQL, Docker, and AWS deployment. Researchers can type a plain English question and get accurate answers backed by real satellite data in real time.",
-      "imageSrc": "/images/projects/eog.webp",
-      "url": "https://eogmap.mines.edu/giree"
-    },
-    {
-      "id": "1",
       "title": "RAG-Based Professional Knowledge Assistant",
       "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
       "imageSrc": "/images/projects/acsmfr.webp",
       "url": "https://github.com/SushruthMurakare/RAGPersonalAssistant"
     },
     {
-      "id": "1",
+      "id": "3",
+      "title": "Payne Institute Geospatial Platform",
+      "description": "Researchers had 200,000+ rows of satellite emissions data across 50+ industrial emitter types but no way to explore it without writing code. I built the entire platform solo — FastAPI backend, React frontend with MapLibre for interactive visualization, LangChain and Google Gemini AI layer for natural language querying, PostgreSQL, Docker, and AWS deployment. Researchers can type a plain English question and get accurate answers backed by real satellite data in real time.",
+      "imageSrc": "/images/projects/eog.webp",
+      "url": "https://eogmap.mines.edu/giree"
+    },
+        {
+      "id": "4",
+      "title": "Geospatial Data Extraction",
+      "description": "Designing and developing full stack web platform using React and Python to visualize and interact with geospatial datasets, structuring PostgreSQL database and building RESTful APIs for data processing. Extracted and organized 12 TB of geospatial data from legacy server, successfully processing 5 TB to date while implementing data migration workflows. Researched cloud platforms (AWS, GCP, Azure) and documented deployment architecture to support production hosting, storage, and scalability requirements.",
+      "imageSrc": "/images/projects/geospatial.png",
+      "url": "https://github.com/Brushy-Canyon-GIS/Web"
+    },
+    {
+      "id": "5",
       "title": "Access control system with masked face recognition (Thesis Project)  ",
       "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
       "imageSrc": "/images/projects/acsmfr.webp",
       "url": "https://github.com/SushruthMurakare/Masked-Face-Recognition"
     },
     {
-      "id": "2",
-      "title": "TODO - KinderTech robot",
-      "description": "This study explores the design and impact of a kindergarten assistant robot, TODO, created to meet classroom needs. Drawing on participatory design principles and insights from interviews with stakeholders, TODO is envisioned as a dynamic, interactive, and emotionally intelligent robot. The research focuses on two primary factors that influence the robot’s effectiveness: its personality and conversational timing. By examining how these traits shape user perceptions, the study seeks to understand the role of politeness and engagement in fostering productive human-robot interactions. Using iterative design processes, grounded theory analysis, and controlled experiments, this research lays the groundwork for developing socially responsive robots that can assist teachers and enhance the learning experience for young students.",
-      "imageSrc": "/images/projects/todo.webp",
-      "url": "https://github.com/SushruthMurakare/TODO_robot"
-    },
-    {
-      "id": "3",
+      "id": "7",
       "title": "Machine learning algorithm for crack detection",
       "description": "Crack detection in construction materials is essential for ensuring structural safety and minimizing maintenance cost. Traditionally, methods such as manual inspection are time taking and have a room for human error thus often require specialized tools. This project proposes a machine learning based approach using Convolutional Neural Network (CNNs) to detect cracks in concrete surfaces through image analysis. Concrete was chosen as the initial materia due its widespread use. A dataset of 2GB containing labeled images of cracked and non cracked concrete was used which incorporated only real samples. The results suggest that deep learning models can effectively automate crack detection, offering a scalable alternative to manual methods.",
       "imageSrc": "/images/projects/crackdetection.jpg",
       "url": "https://github.com/SushruthMurakare/CrackDetection"
     },
     {
-      "id": "4",
+      "id": "8",
       "title": "Bad Design Competition (Won)",
       "description": "Digi E Store is a deliberately bad-design UX/UI project that simulates a scam-like e-commerce platform to demonstrate how poor UX decisions and dark patterns frustrate users and break core design principles like Fitts’ Law, Jakob’s Law, Hick’s Law, and ethical design standards. By intentionally violating usability, accessibility, and visual hierarchy across multiple screens, the project highlights the real impact of bad interaction design. This project won the competition, recognizing its clear execution and strong understanding of UX laws by showcasing what not to do in design.",
       "imageSrc": "/images/projects/baddesign.png",
       "url": "https://sushruthmurakare.github.io/BadDesign/"
     },
     {
-      "id": "5",
-      "title": "Geospatial Data Extraction",
-      "description": "Designing and developing full stack web platform using React and Python to visualize and interact with geospatial datasets, structuring PostgreSQL database and building RESTful APIs for data processing. Extracted and organized 12 TB of geospatial data from legacy server, successfully processing 5 TB to date while implementing data migration workflows. Researched cloud platforms (AWS, GCP, Azure) and documented deployment architecture to support production hosting, storage, and scalability requirements.",
-      "imageSrc": "/images/projects/geospatial.png",
-      "url": "https://github.com/Brushy-Canyon-GIS/Web"
+      "id": "6",
+      "title": "TODO - KinderTech robot",
+      "description": "This study explores the design and impact of a kindergarten assistant robot, TODO, created to meet classroom needs. Drawing on participatory design principles and insights from interviews with stakeholders, TODO is envisioned as a dynamic, interactive, and emotionally intelligent robot. The research focuses on two primary factors that influence the robot’s effectiveness: its personality and conversational timing. By examining how these traits shape user perceptions, the study seeks to understand the role of politeness and engagement in fostering productive human-robot interactions. Using iterative design processes, grounded theory analysis, and controlled experiments, this research lays the groundwork for developing socially responsive robots that can assist teachers and enhance the learning experience for young students.",
+      "imageSrc": "/images/projects/todo.webp",
+      "url": "https://github.com/SushruthMurakare/TODO_robot"
+    },
+    {
+      "id": "7",
+      "title": "Global Friends website",
+      "description": "Designed and developed a full-stack web platform for Global Friends, a Colorado-based nonprofit supporting international students and workers transitioning to life in the USA. The platform features a public-facing site with event listings, a resource hub covering American culture and DMV guidance, and a student portal for scheduling airport rides, meal signups, and event RSVPs. Also built a volunteer and admin dashboard for managing requests, matching students with American host families through the Global Families Initiative, and tracking photo consent. Built with Next.js, React, Python, and FastAPI, with a Google Sheets MVP data layer designed for seamless migration to PostgreSQL at scale.",
+      "imageSrc": "/images/projects/todo.webp",
+      "url": "https://global-friends.vercel.app/"
     }
+
   ],
   "certifications": [
     {
@@ -92,7 +100,7 @@
       "imageSrc": "/images/AWS.png",
       "url": "https://www.credly.com/badges/5c147c4d-cd3a-4ae1-9eef-4399550bd2ad/public_url"
     },
-     {
+    {
       "id": "1",
       "title": "Claude code 101",
       "description": "Anthropic",
@@ -158,7 +166,7 @@
       "date": "2025-08-20",
       "managedDirectly": true,
       "image": "/images/testimonials/Jeff.jpeg",
-      "linkedin" : "https://www.linkedin.com/in/jeff-stockett-6600129",
+      "linkedin": "https://www.linkedin.com/in/jeff-stockett-6600129",
       "recommendation": "Sushruth worked with me as a front end developer doing React. He was able to solve a number of complex problems and create a robust SaaS product. I highly recommend him for any software development needs that anyone may have."
     },
     {
@@ -169,7 +177,7 @@
       "date": "2025-08-11",
       "managedDirectly": false,
       "image": "/images/testimonials/Shivam.jpeg",
-      "linkedin" : "https://www.linkedin.com/in/shivam-prajapati-336734184",
+      "linkedin": "https://www.linkedin.com/in/shivam-prajapati-336734184",
       "recommendation": "I met Sushruth when he joined my team as a Graduate Engineer Trainee. He quickly moved beyond onboarding, understood features independently, and required very little intervention. Over successive sprints, he consistently wrote more mature code, took ownership of larger features, and debugged complex issues on his own. I highly recommend him for his ability to learn quickly, handle work professionally, and contribute positively to the team's success."
     },
     {
@@ -180,7 +188,7 @@
       "date": "2025-08-11",
       "managedDirectly": true,
       "image": "/images/testimonials/Chris.jpeg",
-      "linkedin" : "https://www.linkedin.com/in/chris-elvidge-8142351ab",
+      "linkedin": "https://www.linkedin.com/in/chris-elvidge-8142351ab",
       "recommendation": "Sushruth Murakare was a student worker in my computer laboratory at the Colorado School of Mines for about one year. He reworked our web-map service, integrated new data sets, and made substantial improvements in functionality. We were sorry that our funding situation did not make it possible for him to stay on with us. He is a very talented scientific programmer and has my highest recommendation."
     },
     {
@@ -191,7 +199,7 @@
       "date": "2025-08-08",
       "managedDirectly": false,
       "image": "/images/testimonials/Ed.jpeg",
-      "linkedin" : "https://www.linkedin.com/in/ed-sztukowski-93bb5143",
+      "linkedin": "https://www.linkedin.com/in/ed-sztukowski-93bb5143",
       "recommendation": "Sushruth joined our team as an intern in the summer of 2025 and made an immediate impact. With little direction, he jumped into new feature development and eventually led feature work on a major section of our application. His willingness to take on difficult tasks and complete them thoughtfully and on time, combined with his React expertise, friendliness, and humility, made him an outstanding teammate. Any team would be lucky to work with Sushruth."
     }
   ],
@@ -213,7 +221,7 @@
       "id": "2",
       "title": "The Escape",
       "subtitle": "3D first-person escape room",
-      "imageSrc": "",
+      "imageSrc": "/images/projects/Theescape.png",
       "url": "",
       "bullets": [
         "Built a 3D first-person perspective (FPP) escape room game in Unity, where players navigate a walled environment to collect all items and unlock an escape path upon completion.",
@@ -225,7 +233,7 @@
       "id": "3",
       "title": "Cherry Caves",
       "subtitle": "Super Mario style 2D platformer",
-      "imageSrc": "",
+      "imageSrc": "/images/projects/cherrycaves.png",
       "url": "",
       "bullets": [
         "Developed a multi-level 2D platformer in GameMaker Studio with custom physics, collision detection, and player mechanics including jumping, climbing, and moving platforms.",
@@ -237,7 +245,7 @@
       "id": "4",
       "title": "Space Shooter",
       "subtitle": "2D multi-level space shooter",
-      "imageSrc": "",
+      "imageSrc": "/images/projects/spaceshooter.png",
       "url": "",
       "bullets": [
         "Developed a multi-level 2D space shooter in GameMaker Studio with 3 distinct enemy behaviors: path-following, horizontal oscillation, and player-tracking.",

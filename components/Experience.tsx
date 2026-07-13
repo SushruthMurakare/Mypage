@@ -88,7 +88,7 @@ function ExperienceCard({ exp }: { exp: ExperienceItem }) {
 
 export default function Experience() {
   return (
-    <section className="bg-[#FAF8F5] px-6 py-24">
+    <section id="experience" className="scroll-mt-28 bg-[#FAF8F5] px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-[11px] uppercase tracking-[0.2em] text-[#3C0008] italic mb-12 text-center">
           Work Experience

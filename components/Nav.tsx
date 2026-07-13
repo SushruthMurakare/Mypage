@@ -5,27 +5,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-type NavLinkItem = {
-  label: string;
-  href: string;
-  external?: boolean;
-};
+type NavLinkItem =
+  | { label: string; sectionId: string }
+  | { label: string; href: string; external?: boolean };
 
 const NAV_LINKS: NavLinkItem[] = [
-  { label: "Experience", href: "/experience" },
-  { label: "Projects", href: "/experience" },
-  { label: "Education", href: "/experience" },
-  { label: "Certificates", href: "/experience" },
+  { label: "Experience", sectionId: "experience" },
+  { label: "Projects", sectionId: "projects" },
+  { label: "Education", sectionId: "education" },
+  { label: "Certificates", sectionId: "certificates" },
   { label: "Games", href: "/games" },
-  { label: "Gallery", href: "/experience" },
+  // { label: "Gallery", href: "/experience" },
   { label: "Resume", href: "/resume" },
   {
     label: "Blog",
     href: "https://sushruthmurakarewrites.wordpress.com/my-blogs/",
     external: true,
   },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "About", sectionId: "about" },
 ];
 
 function NavLink({
@@ -37,11 +34,24 @@ function NavLink({
   active: boolean;
   onClick?: () => void;
 }) {
-  const className = `text-sm px-4 py-1.5 rounded-full transition-colors whitespace-nowrap ${
+  const className = `text-sm px-3 py-1.5 rounded-full transition-colors whitespace-nowrap ${
     active
       ? "bg-white text-zinc-900 shadow-sm"
       : "text-zinc-600 hover:bg-white hover:text-zinc-900"
   }`;
+
+  if ("sectionId" in link) {
+    return (
+      <Link
+        href={`/#${link.sectionId}`}
+        scroll
+        className={className}
+        onClick={onClick}
+      >
+        {link.label}
+      </Link>
+    );
+  }
 
   if (link.external) {
     return (
@@ -70,7 +80,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-4 z-50 flex justify-center px-4">
-      <div className="w-full max-w-3xl">
+      <div className="w-full xl:w-auto max-w-6xl">
         <div className="flex items-center gap-1 rounded-full border border-zinc-200/70 bg-white/70 backdrop-blur-md shadow-sm px-2 py-2">
           <Link
             href="/"
@@ -88,19 +98,21 @@ export default function Nav() {
             </span>
           </Link>
 
-          <div className="hidden lg:flex items-center gap-1 flex-1 justify-end overflow-x-auto">
+          <div className="hidden xl:flex items-center gap-1">
             {NAV_LINKS.map((link) => (
               <NavLink
                 key={link.label}
                 link={link}
-                active={!link.external && pathname === link.href}
+                active={
+                  "href" in link && !link.external && pathname === link.href
+                }
               />
             ))}
           </div>
 
           <button
             onClick={() => setOpen((v) => !v)}
-            className="lg:hidden ml-auto mr-1 text-zinc-900 w-8 h-8 flex items-center justify-center flex-shrink-0"
+            className="xl:hidden ml-auto mr-1 text-zinc-900 w-8 h-8 flex items-center justify-center flex-shrink-0"
             aria-label="Toggle menu"
             aria-expanded={open}
           >
@@ -127,12 +139,14 @@ export default function Nav() {
         </div>
 
         {open && (
-          <div className="lg:hidden mt-2 flex flex-col gap-1 rounded-2xl border border-zinc-200/70 bg-white/90 backdrop-blur-md shadow-sm p-2">
+          <div className="xl:hidden mt-2 flex flex-col gap-1 rounded-2xl border border-zinc-200/70 bg-white/90 backdrop-blur-md shadow-sm p-2">
             {NAV_LINKS.map((link) => (
               <NavLink
                 key={link.label}
                 link={link}
-                active={!link.external && pathname === link.href}
+                active={
+                  "href" in link && !link.external && pathname === link.href
+                }
                 onClick={() => setOpen(false)}
               />
             ))}

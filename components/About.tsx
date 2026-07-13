@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="bg-[#FAF8F5] pt-16 md:pt-28 pb-32 px-6">
+    <section id="about" className="scroll-mt-28 bg-[#FAF8F5] pt-12 md:pt-16 pb-16 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-[11px] uppercase tracking-[0.2em] text-[#3C0008] italic mb-10">
           A bit about me
