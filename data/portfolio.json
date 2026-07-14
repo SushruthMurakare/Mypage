@@ -387,6 +387,7 @@
       "started": "Aug 2025",
       "ended": "Present",
       "type": "Part-time",
+      "category": "Teaching Assistant",
       "description": [
         "Mentor and guide students learning Python through regular office hours, teaching core programming concepts and supporting assignment and exam preparation.",
         "Grade assignments and worksheets while providing feedback focused on code quality and best practices."
@@ -401,6 +402,7 @@
       "started": "Jan 2025",
       "ended": "May 2025",
       "type": "Part-time",
+      "category": "Teaching Assistant",
       "description": [
         "Assisted the Mobile Application Development course, teaching Kotlin and Jetpack Compose to a class of 60 students during office hours.",
         "Graded assignments and homework while providing technical guidance and clarifying student doubts."

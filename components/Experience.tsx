@@ -23,8 +23,14 @@ function ExperienceCard({ exp }: { exp: ExperienceItem }) {
   const [open, setOpen] = useState(false);
   const duration = `${exp.started} – ${exp.ended}`;
 
+  const isTeaching = "category" in exp && !!exp.category;
+
   return (
-    <div className="border-b border-zinc-200/80">
+    <div
+      className={`border-b border-zinc-200/80 ${
+        isTeaching ? "pl-4 border-l-2 border-l-[#3C0008]/25" : ""
+      }`}
+    >
       <button
         onClick={() => setOpen((v) => !v)}
         className="w-full flex items-start justify-between py-6 text-left gap-6 group"
@@ -42,6 +48,11 @@ function ExperienceCard({ exp }: { exp: ExperienceItem }) {
             {"type" in exp && exp.type && (
               <span className="text-[10px] font-medium text-zinc-400 bg-zinc-100 px-2 py-0.5 rounded-full">
                 {exp.type}
+              </span>
+            )}
+            {isTeaching && (
+              <span className="text-[10px] font-medium text-[#3C0008] bg-[#3C0008]/8 px-2 py-0.5 rounded-full">
+                {exp.category}
               </span>
             )}
           </p>

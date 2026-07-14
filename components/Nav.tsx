@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 type NavLinkItem =
@@ -82,7 +81,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-4 z-50 flex justify-center px-4">
       <div className="w-full xl:w-auto max-w-6xl">
-        <div className="flex items-center gap-1 rounded-full border border-zinc-200/70 bg-white/70 backdrop-blur-md shadow-sm px-2 py-2">
+        <div className="flex items-center gap-1 xl:rounded-full xl:border xl:border-zinc-200/70 xl:bg-white/70 xl:backdrop-blur-md xl:shadow-sm xl:px-2 xl:py-2">
 
           <div className="hidden xl:flex items-center gap-1">
             {NAV_LINKS.map((link) => (
@@ -98,7 +97,7 @@ export default function Nav() {
 
           <button
             onClick={() => setOpen((v) => !v)}
-            className="xl:hidden ml-auto mr-1 text-zinc-900 w-8 h-8 flex items-center justify-center flex-shrink-0"
+            className="xl:hidden ml-auto w-9 h-9 rounded-full border border-zinc-200/70 bg-white/70 backdrop-blur-md shadow-sm text-zinc-900 flex items-center justify-center flex-shrink-0"
             aria-label="Toggle menu"
             aria-expanded={open}
           >
