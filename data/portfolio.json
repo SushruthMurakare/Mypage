@@ -37,7 +37,7 @@
     {
       "id": "2",
       "title": "RAG-Based Professional Knowledge Assistant",
-      "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
+      "description": "Built a Retrieval-Augmented Generation (RAG) system to answer questions about my professional profile using resume, LinkedIn data, and project documents. Used LangChain to extract, chunk, and embed data, storing vectors in ChromaDB and retrieving context via semantic similarity search. Developed and exposed the RAG pipeline through a FastAPI backend to serve low-latency, query-based responses. Deployed the service on AWS EC2, configuring public IP access and resolving CORS and mixed-content issues for seamless client-server communication. Click the `Ask me` button on the bottom right of the screen to check it out :)",
       "imageSrc": "/images/projects/softlight.png",
       "url": "https://github.com/SushruthMurakare/RAGPersonalAssistant"
     },
