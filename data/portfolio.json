@@ -38,8 +38,15 @@
       "id": "2",
       "title": "RAG-Based Professional Knowledge Assistant",
       "description": "Developed an access control system using Python’s face recognition library along with TensorFlow, Keras, NumPy, and Matplotlib to recognize faces even when partially covered, enhancing security for masked individuals. I evaluated machine learning models for mask detection, achieving 90% accuracy with VGG19 and 80% with MobileNetV2 and ResNet50. Additionally, I implemented the MaskTheFace script to detect facial features and apply masks to images, generating multiple variations for improved training data. This project was created during the pandemic to address the increased prevalence of mask-wearing.",
-      "imageSrc": "/images/projects/acsmfr.webp",
+      "imageSrc": "/images/projects/softlight.png",
       "url": "https://github.com/SushruthMurakare/RAGPersonalAssistant"
+    },
+    {
+      "id": "2",
+      "title": "AI-Powered Web Automation System Using Playwright ",
+      "description": "Built autonomous browser automation tool using Playwright and Google Gemini AI that interprets natural language commands and executes multi-step web tasks by analyzing screenshots and HTML content at each stage. Implemented adaptive decision-making loop with configurable retry logic for error recovery and automated HTML report generation demonstrating production-ready agentic workflow design. ",
+      "imageSrc": "/images/projects/acsmfr.webp",
+      "url": "https://github.com/SushruthMurakare/softlight"
     },
     {
       "id": "3",
