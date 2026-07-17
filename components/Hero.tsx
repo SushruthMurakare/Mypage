@@ -1,9 +1,11 @@
 import Image from "next/image";
 import portfolioData from "@/data/portfolio.json";
+import Stickers from "@/components/Stickers";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-[#FAF8F5] flex flex-col items-center justify-center px-6 py-16">
+    <section id="hero" className="relative min-h-screen bg-[#FAF8F5] flex flex-col items-center justify-center px-6 py-16">
+      <Stickers />
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16 max-w-6xl w-full">
         <div className="flex-1 text-center md:text-left">
           <h1

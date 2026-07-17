@@ -9,6 +9,7 @@ type NavLinkItem =
   | { label: string; href: string; external?: boolean };
 
 const NAV_LINKS: NavLinkItem[] = [
+  { label: "Home", sectionId: "hero" },
   { label: "Experience", sectionId: "experience" },
   { label: "Projects", sectionId: "projects" },
   { label: "Education", sectionId: "education" },
